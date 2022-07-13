@@ -31,7 +31,7 @@ hr{
 
 
 .intro{
-    width: 40%;
+    width: 60%;
     margin: auto;
 }
 
@@ -46,8 +46,15 @@ hr{
 }
 
 .top-cloud{
-    position: absolute;
-    margin-left: 220px;
+    position: relative;
+    margin-left: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+.mountain{
+    max-width: 100%;
+    height: auto;
 }
 .skills{
     display: flex;
@@ -102,5 +109,12 @@ a{
     color: #EAF6F6;
     font-size: 0.75rem;
     margin: 20px 0;
+}
+
+@media screen and (max-width: 550px){
+    .skills{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
